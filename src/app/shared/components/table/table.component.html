@@ -1,0 +1,23 @@
+<table mat-table [dataSource]="pokemons" class="mat-elevation-z8 demo-table">
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="show">
+    <th mat-header-cell *matHeaderCellDef></th>
+    <td mat-cell *matCellDef="let element">
+      <button
+        mat-icon-button
+        [routerLink]="['/detail', pokemons.indexOf(element)+1]"
+      >
+        <mat-icon>search </mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef>Name</th>
+    <td mat-cell *matCellDef="let element">{{ element.name }}</td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>

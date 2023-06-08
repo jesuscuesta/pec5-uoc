@@ -1,0 +1,37 @@
+<div class="menu">
+  <button mat-icon-button [routerLink]="['']">
+    <mat-icon>arrow_back</mat-icon>
+  </button>
+</div>
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-subtitle>{{ detailPokemon?.order }}</mat-card-subtitle>
+    <mat-card-title>{{ detailPokemon?.forms[0]?.name }}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="detailPokemon?.sprites?.front_default" />
+  <mat-card-content *ngIf="mostrarTodo">
+    <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start">
+      <mat-tab label="Tipos"><span *ngFor="let tipo of detailPokemon?.types"
+        >{{ tipo.type.name }}
+      </span></mat-tab>
+      <mat-tab label="Sprites"><div class="todos-sprites">
+        <img mat-card-image [src]="detailPokemon?.sprites?.front_default" />
+        <img mat-card-image [src]="detailPokemon?.sprites?.back_default" />
+        <img mat-card-image [src]="detailPokemon?.sprites?.back_shiny" />
+        <img mat-card-image [src]="detailPokemon?.sprites?.front_shiny" />
+      </div></mat-tab>
+      <mat-tab label="Movimientos"><ul>
+        <li *ngFor="let move of detailPokemon?.moves">{{ move.move.name }}</li>
+      </ul></mat-tab>
+    </mat-tab-group>
+    <mat-divider *ngIf="!mostrarTodo"></mat-divider>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button *ngIf="!mostrarTodo" (click)="mostrarTodo = true">
+      Show All Details
+    </button>
+  </mat-card-actions>
+  <mat-card-footer *ngIf="!mostrarTodo">
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+  </mat-card-footer>
+</mat-card>

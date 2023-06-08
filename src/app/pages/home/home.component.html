@@ -1,0 +1,24 @@
+<div>
+  <button mat-icon-button (click)="showOption(true)">
+    <mat-icon>list</mat-icon>
+  </button>
+  <button mat-icon-button (click)="showOption(false)">
+    <mat-icon>dataset</mat-icon>
+  </button>
+</div>
+<app-table
+  [@listAnimation]
+  *ngIf="show; else cards"
+  [pokemons]="listPokemon"
+></app-table>
+
+<ng-template #cards>
+  <mat-grid-list cols="4" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let pokemon of listPokemon"
+      ><app-cards [pokemonDetail]="pokemon"></app-cards
+    ></mat-grid-tile>
+  </mat-grid-list>
+</ng-template>
+
+- mejorar tabla - mejora - api de pokemon - añadir botón para elegir tipo de
+contenido

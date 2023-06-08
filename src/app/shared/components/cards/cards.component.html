@@ -1,0 +1,18 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title
+      >{{ pokemonDetail.name }}
+      <button mat-button>
+        <button
+          mat-icon-button
+          [routerLink]="[
+            '/detail',
+            pokemonDetail.url.split('/').slice(-1)[0] + 1
+          ]"
+        >
+          <mat-icon>search</mat-icon>
+        </button>
+      </button></mat-card-title
+    >
+  </mat-card-header>
+</mat-card>

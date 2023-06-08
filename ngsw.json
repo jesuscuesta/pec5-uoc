@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1686264342359,
-  "index": "C:/Program Files/Git/pec5-uoc/index.html",
+  "timestamp": 1686265341478,
+  "index": "/pec5-uoc/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,16 +11,16 @@
         "ignoreVary": true
       },
       "urls": [
-        "C:/Program Files/Git/pec5-uoc/250.d53f12c61b20112b.js",
-        "C:/Program Files/Git/pec5-uoc/426.6986d9b7fdff3934.js",
-        "C:/Program Files/Git/pec5-uoc/692.4921c917ac7491e1.js",
-        "C:/Program Files/Git/pec5-uoc/favicon.ico",
-        "C:/Program Files/Git/pec5-uoc/index.html",
-        "C:/Program Files/Git/pec5-uoc/main.158c88a9238ab638.js",
-        "C:/Program Files/Git/pec5-uoc/manifest.webmanifest",
-        "C:/Program Files/Git/pec5-uoc/polyfills.9006a4fcdcfd52f7.js",
-        "C:/Program Files/Git/pec5-uoc/runtime.3c02f41c1b5fc766.js",
-        "C:/Program Files/Git/pec5-uoc/styles.e06a9809e0fa01f5.css"
+        "/pec5-uoc/250.d53f12c61b20112b.js",
+        "/pec5-uoc/426.6986d9b7fdff3934.js",
+        "/pec5-uoc/692.4921c917ac7491e1.js",
+        "/pec5-uoc/favicon.ico",
+        "/pec5-uoc/index.html",
+        "/pec5-uoc/main.158c88a9238ab638.js",
+        "/pec5-uoc/manifest.webmanifest",
+        "/pec5-uoc/polyfills.9006a4fcdcfd52f7.js",
+        "/pec5-uoc/runtime.3c02f41c1b5fc766.js",
+        "/pec5-uoc/styles.e06a9809e0fa01f5.css"
       ],
       "patterns": []
     },
@@ -32,38 +32,38 @@
         "ignoreVary": true
       },
       "urls": [
-        "C:/Program Files/Git/pec5-uoc/assets/icons/icon-128x128.png",
-        "C:/Program Files/Git/pec5-uoc/assets/icons/icon-144x144.png",
-        "C:/Program Files/Git/pec5-uoc/assets/icons/icon-152x152.png",
-        "C:/Program Files/Git/pec5-uoc/assets/icons/icon-192x192.png",
-        "C:/Program Files/Git/pec5-uoc/assets/icons/icon-384x384.png",
-        "C:/Program Files/Git/pec5-uoc/assets/icons/icon-512x512.png",
-        "C:/Program Files/Git/pec5-uoc/assets/icons/icon-72x72.png",
-        "C:/Program Files/Git/pec5-uoc/assets/icons/icon-96x96.png"
+        "/pec5-uoc/assets/icons/icon-128x128.png",
+        "/pec5-uoc/assets/icons/icon-144x144.png",
+        "/pec5-uoc/assets/icons/icon-152x152.png",
+        "/pec5-uoc/assets/icons/icon-192x192.png",
+        "/pec5-uoc/assets/icons/icon-384x384.png",
+        "/pec5-uoc/assets/icons/icon-512x512.png",
+        "/pec5-uoc/assets/icons/icon-72x72.png",
+        "/pec5-uoc/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "C:/Program Files/Git/pec5-uoc/250.d53f12c61b20112b.js": "392332561430d082404bb7059e76083563d8671f",
-    "C:/Program Files/Git/pec5-uoc/426.6986d9b7fdff3934.js": "dee141ebb2304b9229ea95c39343c158ce9ddb6e",
-    "C:/Program Files/Git/pec5-uoc/692.4921c917ac7491e1.js": "f94c85b295552f135fc7e898369c123a13c6e85f",
-    "C:/Program Files/Git/pec5-uoc/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "C:/Program Files/Git/pec5-uoc/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "C:/Program Files/Git/pec5-uoc/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "C:/Program Files/Git/pec5-uoc/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "C:/Program Files/Git/pec5-uoc/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "C:/Program Files/Git/pec5-uoc/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "C:/Program Files/Git/pec5-uoc/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "C:/Program Files/Git/pec5-uoc/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "C:/Program Files/Git/pec5-uoc/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "C:/Program Files/Git/pec5-uoc/index.html": "c70b65dfe5fc27b900f0836263a6630171c4b14d",
-    "C:/Program Files/Git/pec5-uoc/main.158c88a9238ab638.js": "64f00ee85a5fdc24856c686087163abe22dcd294",
-    "C:/Program Files/Git/pec5-uoc/manifest.webmanifest": "2fa9975fb2e15b38b0e5c635eed5eedbd0b959f9",
-    "C:/Program Files/Git/pec5-uoc/polyfills.9006a4fcdcfd52f7.js": "eeb0232a28ef5416ca5965bbca0ac985f1b2f031",
-    "C:/Program Files/Git/pec5-uoc/runtime.3c02f41c1b5fc766.js": "477987e60160c90371df31d3bbadfa6f1a212984",
-    "C:/Program Files/Git/pec5-uoc/styles.e06a9809e0fa01f5.css": "678cadd702d0344fe9bcdd18725c36697210f248"
+    "/pec5-uoc/250.d53f12c61b20112b.js": "392332561430d082404bb7059e76083563d8671f",
+    "/pec5-uoc/426.6986d9b7fdff3934.js": "dee141ebb2304b9229ea95c39343c158ce9ddb6e",
+    "/pec5-uoc/692.4921c917ac7491e1.js": "f94c85b295552f135fc7e898369c123a13c6e85f",
+    "/pec5-uoc/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/pec5-uoc/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/pec5-uoc/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/pec5-uoc/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/pec5-uoc/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/pec5-uoc/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/pec5-uoc/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/pec5-uoc/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/pec5-uoc/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/pec5-uoc/index.html": "daa27623c8e45fca16d4b9baa2a4862fe200c758",
+    "/pec5-uoc/main.158c88a9238ab638.js": "64f00ee85a5fdc24856c686087163abe22dcd294",
+    "/pec5-uoc/manifest.webmanifest": "2fa9975fb2e15b38b0e5c635eed5eedbd0b959f9",
+    "/pec5-uoc/polyfills.9006a4fcdcfd52f7.js": "eeb0232a28ef5416ca5965bbca0ac985f1b2f031",
+    "/pec5-uoc/runtime.3c02f41c1b5fc766.js": "477987e60160c90371df31d3bbadfa6f1a212984",
+    "/pec5-uoc/styles.e06a9809e0fa01f5.css": "678cadd702d0344fe9bcdd18725c36697210f248"
   },
   "navigationUrls": [
     {

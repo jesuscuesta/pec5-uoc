@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build-uoc": "ng build --outputHashing=all"
+    "build-uoc": "ng build --outputHashing=all",
+    "deploy": "ng deploy --base-href=/pec5-uoc/"
   },
   "private": true,
   "dependencies": {

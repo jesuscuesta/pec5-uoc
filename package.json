@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build-uoc": "ng build --outputHashing=all",
-    "deploy": "ng deploy --base-href=/pec5-uoc/"
+    "deploy": "ng deploy --base-href= 'https://github.com/jesuscuesta/pec5-uoc/'",
+    "lighthouse": "lighthouse https://localhost:4200"
   },
   "private": true,
   "dependencies": {
@@ -39,6 +40,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "lighthouse": "^10.2.0",
     "typescript": "~4.9.4"
   }
 }

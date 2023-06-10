@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build-uoc": "ng build --outputHashing=all",
-    "deploy": "ng deploy --base-href= 'https://github.com/jesuscuesta/pec5-uoc/'",
+    "deploy": "ng deploy --base-href='https://github.com/jesuscuesta/pec5-uoc/'",
     "lighthouse": "lighthouse https://localhost:4200"
   },
   "private": true,

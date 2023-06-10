@@ -11,6 +11,7 @@ import { SpinnerComponent } from './core/components/spinner/spinner.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { LoadingInterceptor } from './core/interceptor/loading.interceptor';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { LoadingInterceptor } from './core/interceptor/loading.interceptor';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatProgressSpinnerModule,
-
+    MatToolbarModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),
       // Register the ServiceWorker as soon as the application is stable

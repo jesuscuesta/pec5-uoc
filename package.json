@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href 'https://github.com/jesuscuesta/pec5-uoc/'",
+    "build": "ng build --base-href 'https://github.com/jesuscuesta/pec5-uoc/'",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build-uoc": "ng build --outputHashing=all",

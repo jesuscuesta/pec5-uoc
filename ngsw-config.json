@@ -1,31 +1,7 @@
 {
   "$schema": "./node_modules/@angular/service-worker/config/schema.json",
   "index": "/index.html",
-  "dataGroups": [{
-    "name": "api-pokemon",
-    "urls": [
-      "https://pokeapi.co/api/v2/**"
-    ],
-    "cacheConfig": {
-      "strategy": "performance",
-      "maxSize": 100,
-      "maxAge": "3d"
-    }
-  },
-  {
-    "name": "api-freshness",
-    "urls": [
-      "https://pokeapi.co/api/v2/"
-    ],
-    "cacheConfig": {
-      "strategy": "freshness",
-      "maxSize": 100,
-      "maxAge": "3d",
-      "timeout": "10s"
-    }
-  }
-],
-  "assetGroups": [
+   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",

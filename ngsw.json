@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1686513565689,
+  "timestamp": 1686513891189,
   "index": "https://github.com/jesuscuesta/pec5-uoc/index.html",
   "assetGroups": [
     {
@@ -44,35 +44,7 @@
       "patterns": []
     }
   ],
-  "dataGroups": [
-    {
-      "name": "api-pokemon",
-      "patterns": [
-        "https:\\/\\/pokeapi\\.co\\/api\\/v2\\/.*"
-      ],
-      "strategy": "performance",
-      "maxSize": 100,
-      "maxAge": 259200000,
-      "cacheQueryOptions": {
-        "ignoreVary": true
-      },
-      "version": 1
-    },
-    {
-      "name": "api-freshness",
-      "patterns": [
-        "https:\\/\\/pokeapi\\.co\\/api\\/v2\\/"
-      ],
-      "strategy": "freshness",
-      "maxSize": 100,
-      "maxAge": 259200000,
-      "timeoutMs": 10000,
-      "cacheQueryOptions": {
-        "ignoreVary": true
-      },
-      "version": 1
-    }
-  ],
+  "dataGroups": [],
   "hashTable": {
     "https://github.com/jesuscuesta/pec5-uoc/250.bee52dcc0557f8f6.js": "e2efddf97a66d794598353dfd6ce272b611b0d0f",
     "https://github.com/jesuscuesta/pec5-uoc/426.6986d9b7fdff3934.js": "dee141ebb2304b9229ea95c39343c158ce9ddb6e",
